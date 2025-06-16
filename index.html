@@ -30,9 +30,15 @@
   </style>
 </head>
 <body>
+<script>
+  const userLang = navigator.language || navigator.userLanguage;
+  if (userLang.startsWith('bg')) {
+    window.location.href = 'https://minchosimov.github.io/autocheckdoc-marketing/bg.html';
+  }
+</script>
 <div class="container position-relative">
   <div class="lang-switch">
-    <a href=\"https://minchosimov.github.io/autocheckdoc-marketing/bg.html\" class="btn btn-outline-light btn-sm">Българска версия</a>
+    <a href="https://minchosimov.github.io/autocheckdoc-marketing/bg.html" class="btn btn-outline-light btn-sm">Българска версия</a>
   </div>
 
   <div class="hero-section text-center">
